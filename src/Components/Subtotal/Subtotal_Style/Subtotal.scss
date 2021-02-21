@@ -1,0 +1,33 @@
+@mixin contentSize($width, $height, $bgcolor, $border, $borderRadius) {
+  width: $width;
+  height: $height;
+  background-color: $bgcolor;
+  border: $border;
+  border-radius: $borderRadius;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include contentSize(300px, 150px, #f3f3f3, 1px solid #dddddd, 3px);
+  padding: 20px;
+}
+
+.subtotal__gift {
+  display: flex;
+  align-items: center;
+
+  input {
+    margin-right: 5px;
+  }
+}
+
+.subtotal {
+  button {
+    background: #f0c14b;
+    @include contentSize(100%, 30px, #a88734 #9c7e31 #846a29, 1px solid, 2px);
+    margin-top: 10px;
+    color: #111;
+  }
+}

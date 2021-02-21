@@ -1,0 +1,27 @@
+.login__box {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+
+  h1 {
+    font-weight: 500p;
+    margin-bottom: 20px;
+  }
+
+  form {
+    h5 {
+      margin-bottom: 5px;
+    }
+
+    input {
+      height: 30px;
+      margin-bottom: 10px;
+      background-color: white;
+      width: 98%;
+    }
+  }
+}

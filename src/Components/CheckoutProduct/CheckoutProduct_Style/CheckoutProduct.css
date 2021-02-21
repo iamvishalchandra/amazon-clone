@@ -1,0 +1,56 @@
+.checkouProduct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+.checkouProduct__thumbnail {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+
+.checkouProduct__info {
+  padding-left: 20px;
+}
+
+.checkouProduct__info button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  padding: 1.5px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.checkouProduct__title {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.checkouProduct__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .checkouProduct {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .checkouProduct__thumbnail {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100px;
+    height: 100px;
+  }
+}
+/*# sourceMappingURL=CheckoutProduct.css.map */

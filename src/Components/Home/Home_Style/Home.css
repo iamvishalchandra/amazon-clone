@@ -1,0 +1,47 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 81%;
+}
+
+.home_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  margin: 0 5px;
+}
+
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#000001), to(rgba(0, 0, 0, 0)));
+  -webkit-mask-image: linear-gradient(to bottom, #000001, rgba(0, 0, 0, 0));
+          mask-image: -webkit-gradient(linear, left top, left bottom, from(#000001), to(rgba(0, 0, 0, 0)));
+          mask-image: linear-gradient(to bottom, #000001, rgba(0, 0, 0, 0));
+}
+
+@media (max-width: 800px) {
+  .home_cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 20px 0 0px;
+  }
+  .home__image {
+    margin-bottom: -50px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

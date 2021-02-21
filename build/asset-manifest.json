@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1c83957.chunk.css",
+    "main.js": "/static/js/main.ee1dc3aa.chunk.js",
+    "main.js.map": "/static/js/main.ee1dc3aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ff8b8a8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ff8b8a8.js.map",
+    "static/js/2.d2fc888e.chunk.js": "/static/js/2.d2fc888e.chunk.js",
+    "static/js/2.d2fc888e.chunk.js.map": "/static/js/2.d2fc888e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d1c83957.chunk.css.map": "/static/css/main.d1c83957.chunk.css.map",
+    "static/js/2.d2fc888e.chunk.js.LICENSE.txt": "/static/js/2.d2fc888e.chunk.js.LICENSE.txt",
+    "static/media/amazon-logo-black.27251bf6.png": "/static/media/amazon-logo-black.27251bf6.png",
+    "static/media/amazon-logo.64a0d895.png": "/static/media/amazon-logo.64a0d895.png",
+    "static/media/cardigan.d1813f82.jpg": "/static/media/cardigan.d1813f82.jpg",
+    "static/media/mkeyboard.aff8c92e.jpg": "/static/media/mkeyboard.aff8c92e.jpg",
+    "static/media/shipping.18921740.jpg": "/static/media/shipping.18921740.jpg",
+    "static/media/xbox.6f754337.jpg": "/static/media/xbox.6f754337.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ff8b8a8.js",
+    "static/js/2.d2fc888e.chunk.js",
+    "static/css/main.d1c83957.chunk.css",
+    "static/js/main.ee1dc3aa.chunk.js"
+  ]
+}
